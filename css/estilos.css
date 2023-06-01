@@ -1,0 +1,434 @@
+ *{
+    margin: 0;
+    padding: 0;
+
+ }
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: montserrat;
+        
+}
+
+.barraNavegacion{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-left: 550px;
+}
+
+#section1{
+    grid-area: section1;
+}
+
+#section2{
+    background-color: rgb(183, 255, 231);
+    grid-area: section2;
+}
+
+.ImagenPrincipal{
+    margin-left: 160px;
+}
+
+.fondoIndex{
+    width: 1300px;
+    height: 750px;
+}
+
+.imagen2Index{
+    height: 710px;
+}
+
+.imagen3Index{
+    height: 710px;
+}
+
+.Productosmain{
+    margin-top: 30px;
+}
+
+.novedadees{
+    background-color: aquamarine;
+    margin-bottom: 30px;
+}
+
+.productosIndex{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tecladoHyperP{
+    width: 350px;
+    height: 250px;
+}
+
+.CartasP h5{
+    font-size: 15px;
+}
+
+.CartasP p{
+    font-size: 15px;
+}
+
+.cartasP2{
+    font-size: 15px;
+}
+
+.tecladokumaraP{
+    height: 250px;
+    width: 500px;
+}
+
+.tecladokumarawhiP{
+    width: 350px;
+    height: 250px;
+}
+
+.segundoMainP{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.mouseP{
+    height: 250px;
+    width: 300px;
+}
+
+.footerP2{
+    display: flex;
+}
+
+.footerP1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 25px;
+    margin: 25px;
+    padding-top: 20px;
+}
+
+.novedadees section p{
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+#footer {
+    position: relative;
+    background-color: aquamarine;
+    grid-area: footer;
+}
+
+.sinsub {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.FondoA{
+    background-color: #e8e8e7;
+}
+
+li{
+    color: black;
+    display: inline-block;
+    padding: 25px; 
+}
+
+.separado{
+    margin-left: 500px;
+}
+
+a{
+    color: black;
+}
+
+h2 {
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 35px;
+    padding-left: 95px;
+    padding-bottom: 50px;
+}
+
+.memoram{
+    padding-left: 150px;
+    width: 230px;
+    height: 165px;
+}
+
+#icono{
+    width: 90px;
+    height: 90px;
+    padding-left: 260px;
+    padding-top: 0;
+}
+
+.ventass{
+    display: inline;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#Seguinosen{
+    display: block;
+    height: 20px;
+    margin-top: 75px;
+    font-size: 17px;
+}
+
+.FondoB{
+    background-color: aquamarine;
+}
+
+.cqrduda{
+    font-size: 17px;
+    display: block;
+    height: 20px;
+    padding-top: 140px;
+
+}
+.ayudafooter{
+    display: block; 
+    font-size: 17px;
+    height: 10px;
+    margin-top: 140px;
+    padding-left: 10px;
+}
+
+.logoface{
+    display: block;
+    width: 40px;    
+    height: 40px; 
+    margin-top: 66px;
+    margin-left: 20px;
+}
+
+.logotwi{
+    width: 45px;    
+    height: 45px; 
+    display: block;
+    margin-top: 65px;
+    margin-left: 15px;
+}
+
+.logoinsta{
+    width: 30px;    
+    height: 30px; 
+    display: block;
+    margin-top: 73px;
+    margin-left: 15px;
+}
+
+.kumarawhite{
+    width: 200px;
+    height: 150px;
+}
+
+.logow{ 
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+}
+
+.hotsale section p{
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+.logow img{  
+    width: 70px;
+    height: 70px;
+    background-color: green;
+    border-radius: 130%;
+}
+
+.FondoNav{  
+    background-color: aquamarine;
+}
+
+.quienessomos{  
+    font-size: 22px;
+    grid-area: quienessomos;
+    background-image: url(../images/fondo\ quienes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quienessomos img{
+    width: 450px;
+    height: 400px;
+    padding-left: 550px;
+    padding-top: 70px;
+}
+
+.footerr{   
+    display: flex;
+}
+
+.imagenNosotros img{
+    width: 600px;
+    height: 600px;
+    padding-left: 100px;
+    margin: 40px;
+}
+
+.sectionNosotros{   
+    background-color: #e8e8e7;
+}
+
+.sectionNosotros h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contactanosNosotros{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+
+.mainNosotros h2{
+    padding-left: 130px;
+    padding-top: 20px;
+}
+
+.textoNosotros{
+    font-size: 18px;
+    padding-left: 130px;
+}
+
+.ofertasMain{
+    margin-top: 40px;
+}
+
+.hotsale{
+    grid-area: hotsale;
+}
+
+.ofertasMain p{
+    display: inline-block;
+    padding-left: 170px;
+    font-size: 15px;
+}
+
+.tituloHotsale{
+    font-size: 17px;
+    text-decoration: line-through;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.imagenesHotsale{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.encabezadoPro{
+    text-align: center;
+}
+
+.otrasPreguntasA{
+    margin-top: 75px;
+    margin-bottom: 60px;
+}
+
+.ImagenIndex{
+    width: 300px;
+    height: 300px;
+}
+
+.imagenNosotros{
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 95px;
+}
+
+@media screen and (max-width: 768px){
+    .menu nav ul{
+        font-size: 14px;
+    }
+
+    .menu nav ul li{
+        margin: 20px;
+    }
+    
+    .separado{
+        padding-left: 35px;
+    }
+
+    .ImagenP img{
+        width: 600px;
+        height: 450px;
+    }
+
+    .novedadees section h2{
+        text-align: center;
+    }
+
+    .placaasus{
+        display: none;
+    }
+
+    .teclado{
+        display: none;
+    }
+
+    .pPlacaIndex{
+        display: none;
+    }
+
+    .pKumaraIndex{
+        display: none;
+    }
+
+    .memoram{
+        padding-left: 80px;
+    }
+
+    .pRamIndex{
+        padding-left: 25px;
+    }
+
+    .pRyzenIndex{
+        padding-left: 110px;
+    }
+
+    .cqrduda{
+        font-size: 13px;
+        margin-right: 50px;
+        padding-bottom: 50px;
+    }
+
+    #Seguinosen{
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+
+    .logoinsta{
+        padding-right: 100px;
+    }
+
+    .ayudafooter{
+        margin-left: 0px;
+        display: inline-block;
+    }
+
+    .logow{
+        padding-right: 70px;
+    }
+
+    .logow img{
+        width: 50px;
+        height: 50px;
+    }
+}
