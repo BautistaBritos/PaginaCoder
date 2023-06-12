@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
 
@@ -100,21 +100,6 @@ body{
     width: 300px;
 }
 
-.claseP{
-    height: 250px;
-    width: 300px;
-}
-
-.logiP2{
-    height: 250px;
-    width: 300px;
-}
-
-.ram16P{
-    height: 250px;
-    width: 300px;
-}
-
 .footerP2{
     display: flex;
 }
@@ -184,7 +169,7 @@ h2 {
 #icono{
     width: 90px;
     height: 90px;
-    margin-left: 200px;
+    padding-left: 260px;
     padding-top: 0;
 }
 
@@ -367,100 +352,10 @@ h2 {
     margin-top: 95px;
 }
 
-@media screen and (max-width: 1400px){
-    .barraNavegacion{
-        margin-left: 0px;
-        padding-left: 0;
-    }
-
-    .tecladoHyperP{
-        height: 230px;
-        width: 260px;
-        margin-left: 40px;
-    }
-
-    .tecladokumarawhiP{
-        height: 200px;
-        width: 260px;
-        margin-left: 50px;
-        margin-top: 20px;
-    }
-
-    .tecladokumaraP{
-        height: 200px;
-        width: 340px;
-        margin-top: 20px;
-    }
-
-    .mouseP{
-        height: 180px;
-        width: 210px;
-        margin-left: 20px;
-    }
-
-    .claseP{
-        height: 180px;
-        width: 210px;
-    }
-
-    .logiP2{
-        height: 180px;
-        width: 210px;
-    }
-
-    .ram16P{
-        height: 180px;
-        width: 210px;
-    }
-
-    .logow img{
-        width: 45px;
-        height: 45px;
-        margin-right: 30px;
-    }
-
-    .imagenNosotros{
-        width: 400px;
-        height: 400px;
-    }
-}
-
-@media screen and (max-width: 1250px){
-    .imagenNosotros{
-        width: 300px;
-        height: 300px;
-    }
-}
-
 @media screen and (max-width: 992px){
     .barraNavegacion{
         padding-left: 0;
         margin-left: 0;
-    }
-
-    #logitechIndex{
-        display: none;
-    }
-
-    .memoria16P{
-        display: none;
-    }
-
-    .tecladoHyperP2{
-        display: none;
-    }
-
-    .logoface{
-        margin-left: 5px;
-    }
-
-    .ventass{
-        margin-left: 150px;
-    }
-
-    .imagenNosotros{
-        margin-bottom: 30px;
-        margin-left: 280px;
     }
 }
 
@@ -507,64 +402,7 @@ h2 {
 
     .footerP1{
         margin-bottom: 50px;
-    } 
-
-    .ventass{
-        margin-left: 0;
     }
-
-    .textoNosotros{
-        padding-left: 30px;
-    }
-
-    .mainNosotros h2{
-        padding-left: 40px;
-    }
-
-    .imagenNosotros{
-        margin-left: 200px;
-    }
-}
-
-@media screen and (max-width: 767px){
-    #logitechIndex{
-        display: inline-block;
-    }
-    
-    .logiP{
-        display: none;
-    }
-
-    .kumarawhiP{
-        width: 280px;
-        height: 250px;
-    }
-
-    .tecladokumarawhiP{
-        width: 150px;
-        height: 130px;
-    }
-
-    .kumaranormalP{
-        width: 280px;
-        height: 250px;
-    }
-
-    .tecladokumaraP{
-        width: 220px;
-        height: 130px;
-    }
-
-    .m908P{
-        width: 280px;
-        height: 250px; 
-    }
-
-    .ram8P{
-        width: 280px;
-        height: 250px; 
-    }
-
 }
 
 @media screen and (max-width: 576px){
@@ -686,79 +524,12 @@ h2 {
         width: 10px;
     }
 
-    .m908P div h5{
-        font-size: 15px;
-    }
-
-    .ram8P div h5{
-        font-size: 15px;
-    }
-
-    .kumarawhiP{
-        margin-left: 80px;
-        margin-bottom: 30px;
-    }
-
-    .kumaranormalP{
-        margin-left: 80px;
-    }
-
-    .m908P{
-        margin-left: 80px;
-    }
-
-    .ram8P{
-        margin-left: 80px;
-        margin-top: 65px;
-    }
-
-    .claseP{
-        width: 170px;
-        height: 150px;
-    }
-
-    .imagenNosotros{
-        margin-left: 50px;
-    }
 }
 
 @media screen and (max-width: 380px){
     .mouseP{
         width: 260px;
         height: 260px;
-    }
-
-    .ram8P{
-        margin-left: 40px;
-    }
-
-    .m908P{
-        margin-left: 40px;
-    }
-
-    .kumaranormalP{
-        margin-left: 40px;
-    }
-
-    .kumarawhiP{
-        margin-left: 40px;
-    }
-
-    .imagenNosotros{
-        height: 250px;
-        width: 250px;
-    }
-
-    .mainNosotros h2{
-        padding-left: 0;
-    }
-
-    .textoNosotros{
-        padding-left: 0;
-    }
-
-    .contactanosNosotros{
-        padding-left: 0;
     }
 }
 
