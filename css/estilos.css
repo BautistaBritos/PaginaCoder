@@ -201,10 +201,6 @@ h2 {
     font-size: 17px;
 }
 
-.FondoB{
-    background-color: aquamarine;
-}
-
 .cqrduda{
     font-size: 17px;
     display: block;
@@ -322,10 +318,6 @@ h2 {
 
 .ofertasMain{
     margin-top: 40px;
-}
-
-.hotsale{
-    grid-area: hotsale;
 }
 
 .ofertasMain p{
