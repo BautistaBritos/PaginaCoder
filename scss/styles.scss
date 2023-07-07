@@ -53,7 +53,7 @@ body{
 
 #footer{
     position: relative;
-    background-color: #73FACB;
+    background-color: $ColorPagina2;
 }
 
 .sinsub {
@@ -62,7 +62,7 @@ body{
 }
 
 .FondoA{
-    background-color: #65C0F7;
+    background-color: $ColorPagina1;
 }
 
 li{
@@ -108,11 +108,11 @@ h2 {
     display: block;
     height: 20px;
     margin-top: 75px;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .cqrduda{
-    font-size: 17px;
+    font-size: 18px;
     display: block;
     height: 20px;
     padding-top: 140px;
@@ -171,7 +171,7 @@ h2 {
 }
 
 .btn-primary{
-    background-color: #9089FA;
+    background-color: $ColorPagina1;
 }
 
 .dropdown-toggle{
@@ -254,15 +254,25 @@ h2 {
     @extend .mouseP;
 }
 
+.pDestacados{
+    h3{
+        font-size: 20px;
+        text-decoration: underline;
+        margin-top: 35px;
+        margin-left: 95px;
+        padding-bottom: 50px; 
+    }
+}
+
 /* Productos */
 .CartasP{
     p{
         font-size: $tamañoFuente;        
     }
-    h5{
-        font-size: $tamañoFuente;
-    }
+}
 
+.letraCarta{
+    font-size: $tamañoFuente;
 }
 
 .correccion{
@@ -270,9 +280,91 @@ h2 {
     height: 250px;
 }
 
+.NuestrosProductosCuerpo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: end;
+    background-image: url(../images/otro\ otro.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
 .NuestrosProductos{
     margin-top: 70px;
-    margin-left: 130px;
+    color: white;
+}
+
+.acordeonProductos{
+    margin-left: 5%;
+    border: none;
+    width: 350px;
+}
+
+.otroAc{
+    width: 200px;
+}
+
+.h2acordeon{
+    margin-left: 0px;
+    font-size: 15px;
+}
+
+.LetraAcordeon{
+    font-size: 12px;
+}
+
+.botonAcordeon{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.anuncioProductos{
+    width: 900px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.tecladoHyperP2{
+    margin-top: 60px;
+}
+
+.kumarawhiP{
+    margin-top: 60px;
+}
+
+.DestacadosP{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    h3{
+        margin-left: 350px;
+        text-decoration: underline;
+        font-size: 19px;
+        font-weight: bolder;
+    }
+}
+
+.segundoMainP{
+    margin-bottom: 100px;
+}
+
+.anuncioMedio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.TextoAnuncio{
+    margin-top: 80px;
+    p{
+        font-size: 18px;
+        text-align: justify;
+        text-align: center;
+    }
+}
+
+.listaProductos{
+    display: none;
 }
 
 /* Ofertas */
@@ -388,11 +480,14 @@ h2 {
     padding-left: 130px;
 }
 
-
 /* Ayuda */
 .otrasPreguntasA{
     margin-top: 75px;
     margin-bottom: 60px;
+}
+
+.letraAyuda{
+    font-size: 14px;
 }
 
 /* Keyframes */
@@ -487,6 +582,25 @@ h2 {
     .logow{
         margin-bottom: 65px;
     }
+
+    .tecladoHyperP{
+        height: 200px;
+        width: 230px;
+    }
+
+    .tecladokumarawhiP{
+        height: 180px;
+        width: 200px;
+    }
+    
+    .acordeonProductos{
+        width: 250px;
+    }
+
+    .anuncioProductos{
+        width: 700px;
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 992px){
@@ -500,10 +614,6 @@ h2 {
     }
 
     .memoria16P{
-        display: none;
-    }
-
-    .tecladoHyperP2{
         display: none;
     }
 
@@ -550,6 +660,42 @@ h2 {
         width: 90%;
         margin-left: 0;
         padding-left: 0;
+    }
+
+    .tecladoHyperP{
+        height: 150px;
+        width: 200px;
+        margin-left: 0;
+    }
+
+    .tecladoHyperP2{
+        width: 300px;
+    }
+
+    .tecladokumarawhiP{
+        height: 131px;
+        width: 160px;
+    }
+
+    .kumarawhiP{
+        width: 300px;
+    }
+
+    .acordeonProductos{
+        display: none;
+    }
+    
+    .listaProductos{
+        display: inline-block;
+    }
+
+    .anuncioProductos{
+        width: 550px;
+        height: 250px;
+    }
+
+    .tecladoHyperP2{
+        margin-left: 75px;
     }
 }
 
@@ -622,6 +768,20 @@ h2 {
         height: 140px;
         width: 150px;
         margin-left: 70px;
+    }
+
+    .anuncioProductos{
+        width: 400px;
+        height: 200px;
+    }
+
+    .TextoAnuncio{
+        margin-top: 80px;
+        p{
+            font-size: 15px;
+            text-align: justify;
+            text-align: center;
+        }
     }
 }
 
@@ -706,6 +866,16 @@ h2 {
     }
 
     .descuentoO{
+        margin-left: 0;
+    }
+
+    .DestacadosP{
+        h3{
+            margin-left: 30px;
+        }
+    }
+
+    .tecladoHyperP2{
         margin-left: 0;
     }
 }
@@ -912,6 +1082,18 @@ h2 {
     .NuestrosProductos{
         text-align: center;
         margin-left: 0;    
+    }
+
+    .anuncioProductos{
+        width: 250px;
+        height: 150px;
+    }
+
+    .TextoAnuncio{
+        margin-top: 80px;
+        p{
+            font-size: 13px;
+        }
     }
 }
 

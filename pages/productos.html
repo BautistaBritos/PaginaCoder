@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- SEO -->
 
@@ -26,7 +27,6 @@
 
 <body>
     <div class="container-fluid">
-
         <div class="FondoA row" id="section1">
           <section class="col-md-3 col-sm-3 col-xl-3 secIcono">
             <img id="icono" src="../images/iconoo.png" alt="icono-pagina">
@@ -71,11 +71,12 @@
         </section>
     </header>
 
-    <section class="row">
-        <h2 class="col-md-12 NuestrosProductos">¡NuestrosProductos!</h2>
+    <section class="row NuestrosProductosCuerpo">
+      <h2 class="col-md-12 NuestrosProductos">¡NuestrosProductos!</h2>
     </section>
 
-    <section class="listaProductos row">
+    <main class="Productosmain row">
+      <section class="row listaProductos">
         <div class="btn-group col-md-2">
             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               Teclados
@@ -85,7 +86,7 @@
               <li><a class="dropdown-item" href="#">Menu item</a></li>
               <li><a class="dropdown-item" href="#">Menu item</a></li>
             </ul>
-          </div>
+        </div>
 
           <div class="btn-group col-md-2">
             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -130,49 +131,104 @@
               <li><a class="dropdown-item" href="#">Menu item</a></li>
             </ul>
           </div>
-    </section>
+      </section>
 
-    <main class="Productosmain row">
-        <section class="col-md-6 col-lg-4 tecladoHyperP2">  
+      <div class="accordion accordion-flush col-2 col-md-2 col-lg-3 acordeonProductos" id="accordionFlushExample">
+        <div class="accordion-item otroAc">
+          <h2 class="accordion-header h2acordeon">
+            <button class="accordion-button collapsed botonAcordeon" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Teclados
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse colapsoP" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body LetraAcordeon">Redragon, Hyperex</div>
+          </div>
+        </div>
+        <div class="accordion-item otroAc">
+          <h2 class="accordion-header h2acordeon">
+            <button class="accordion-button collapsed botonAcordeon" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Mouses
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body LetraAcordeon">Redragon, LogiTech</div>
+          </div>
+        </div>
+        <div class="accordion-item otroAc">
+          <h2 class="accordion-header h2acordeon">
+            <button class="accordion-button collapsed botonAcordeon" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Placas de video
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body LetraAcordeon">AMD RX, Asus</div>
+          </div>
+        </div>
+        <div class="accordion-item otroAc">
+          <h2 class="accordion-header h2acordeon">
+            <button class="accordion-button collapsed botonAcordeon" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Procesadores
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body LetraAcordeon">Intel Core, AMD Ryzen</div>
+          </div>
+        </div>
+        <div class="accordion-item otroAc">
+          <h2 class="accordion-header h2acordeon">
+            <button class="accordion-button collapsed botonAcordeon" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Memorias RAM
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body LetraAcordeon">Fury Hyperex</div>
+          </div>
+        </div>
+      </div>
+      
+        <section class="col-md-4 col-lg-4 col-sm-4 tecladoHyperP2">  
             <div class="card">
-                <img src="../images/tecaldohyperex.png" class="tecladoHyperP card-img-top" alt="teclado-hyperx">
+                <img src="../images/tecaldohyperex.png" class="tecladoHyperP card-img-top" alt="teclado hyperx Alloy Origins">
                 <div class="card-body CartasP">
-                  <h5 class="card-title">HyperX Alloy Origins</h5>
+                  <h5 class="card-title letraCarta">HyperX Alloy Origins</h5>
                   <p class="card-text">$30.000</p>
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
         </section>
 
-        <section class="col-sm-6 col-md-6 col-lg-4 kumarawhiP">
-            <div class="card">
-                <img src="../images/kumararedagonnqueva.jpeg" class="tecladokumarawhiP card-img-top" alt="teclado-kumara">
-                <div class="card-body CartasP">
-                  <h5 class="card-title">Redragon Kumara k552 White</h5>
-                  <p class="card-text">$20.000</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
+        <section class="col-sm-4 col-md-4 col-lg-4 kumarawhiP">
+          <div class="card">
+              <img src="../images/kumararedagonnqueva.jpeg" class="tecladokumarawhiP card-img-top" alt="teclado kumara K552">
+              <div class="card-body CartasP">
+                <h5 class="card-title letraCarta">Redragon Kumara k552 White</h5>
+                <p class="card-text">$20.000</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
               </div>
-        </section>
-
-        <section class="col-sm-6 col-md-6 col-lg-4 kumaranormalP">
-            <div class="card">
-                <img src="../images/kumararedbien.jpg" class="tecladokumaraP correccion card-img-top" alt="teclado-kumara">
-                <div class="card-body CartasP">
-                  <h5 class="card-title">Redragon Kumara k552</h5>
-                  <p class="card-text">$18.000</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
             </div>
         </section>
     </main>
 
+    <div class="row">
+        <section class="col-md-12 TextoAnuncio">
+          <p>En VentasGamers contamos con todas las ultimas novedades del mercado. Mira ahora la nueva placa de video de Asus, la NVIDIA GEFORCE RTX 4090 al mejor precio en Argentina.</p>
+        </section>
+      
+        <section class="col-md-12 anuncioMedio">
+          <img src="../images/rtx 4080 largo.jpg" class="anuncioProductos" data-aos="fade-right" alt="placa de video NVIDIA 4090">
+        </section>
+    </div>
+    
+    <div class="row DestacadosP">
+      <h3 class="col-md-12">Destacados</h3>
+    </div>
+
     <div class="segundoMainP row">
         <section class="col-md-4 col-lg-3 m908P">
             <div class="card cartasP2" >
-                <img src="../images/mouse redragon M908.jpg" class="claseP card-img-top" alt="mouse-redragon">
+                <img src="../images/mouse redragon M908.jpg" class="claseP card-img-top" alt="mouse redragon M908">
                 <div class="card-body">
-                <h5 class="card-title">Redragon M908</h5>
+                <h5 class="card-title letraCarta">Redragon M908</h5>
                 <p class="card-text">$15.999</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
@@ -181,9 +237,9 @@
 
         <section class="col-md-4 col-lg-3 logiP">
             <div class="card cartasP2">
-                <img src="../images/mouse G502 Hero.jpg" class="logiP2 card-img-top" alt="mouse-logitech">
+                <img src="../images/mouse G502 Hero.jpg" class="logiP2 card-img-top" alt="mouse logitech G502">
                 <div class="card-body">
-                <h5 class="card-title">Logitech G502 Hero</h5>
+                <h5 class="card-title letraCarta">Logitech G502 Hero</h5>
                 <p class="card-text">$17.999</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
@@ -192,9 +248,9 @@
 
         <section class="col-md-4 col-lg-3 ram8P">
             <div class="card cartasP2">
-                <img src="../images/memoria ram.webp" class="claseP card-img-top" alt="memoria-ram">
+                <img src="../images/memoria ram.webp" class="claseP otraConf card-img-top" alt="memoria ram hyperx 8GB">
                 <div class="card-body">
-                <h5 class="card-title">Memoria RAM 8GB DDR4 HyperX Fury</h5>
+                <h5 class="card-title letraCarta">Memoria RAM 8GB DDR4 HyperX Fury</h5>
                 <p class="card-text">$7.999</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
@@ -202,18 +258,17 @@
         </section>
 
         <section class="col-md-4 col-lg-3">
-            <div class="card cartasP2 memoria16P">
-                <img src="../images/memoriaram16.webp" class="ram16P card-img-top" alt="memoria-ram-16">
-                <div class="card-body">
-                <h5 class="card-title">Memoria RAM 16GB DDR4 HyperX Fury</h5>
-                <p class="card-text">$11.500</p>
-                <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </section>
+          <div class="card cartasP2 memoria16P">
+              <img src="../images/memoriaram16.webp" class="ram16P card-img-top" alt="memoria ram hyperx 16GB">
+              <div class="card-body">
+              <h5 class="card-title letraCarta">Memoria RAM 16GB DDR4 HyperX Fury</h5>
+              <p class="card-text">$11.500</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+          </div>
+      </section>
     </div>
 
-    
     <footer id="footer" class="footerr row">
         <section class="footerP1 col-md-6">
             <p class="cqrduda">Cualquier duda que tengas consultala en</p>
@@ -222,19 +277,24 @@
             
         <section class="footerP2 col-md-6">
             <h3 id="Seguinosen">Seguinos en nuestras redes sociales</h3>    
-            <img src="../images/face.png" alt="icono-facebook" class="logoface">
-            <img src="../images/twitter logo.webp" alt="icono-twitter" class="logotwi">
-            <img src="../images/logoinsta.png" alt="logo-instagram" class="logoinsta">
+            <img src="../images/face.png" alt="logo facebook" class="logoface">
+            <img src="../images/twitter logo.webp" alt="logo twitter" class="logotwi">
+            <img src="../images/logoinsta.png" alt="logo instagram" class="logoinsta">
         </section>
     </footer>
 
     <div class="logow">
-        <img src="../images/pngwhats.png" alt="logo-whatsapp">
+        <img src="../images/pngwhats.png" alt="logo whatsapp">
     </div>
 
     </div>
 
     <script src="../js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>
